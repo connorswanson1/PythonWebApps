@@ -36,3 +36,13 @@ class BlackWidow(TemplateView):
             'body': 'My name is Natasha Romanova',
             'image': '/static/images/black_widow.jpg'
         }
+
+class SilverSurfer(TemplateView):
+    template_name = 'hero.html'
+
+    def get_context_data(self, **kwargs):
+        return {
+            'title': 'Silver Surfer',
+            'body': 'My name is Norrin Radd',
+            'image': '/static/images/silver_surf.jpg'
+        }
