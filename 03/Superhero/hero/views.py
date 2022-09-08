@@ -37,6 +37,7 @@ class BlackWidow(TemplateView):
             'image': '/static/images/black_widow.jpg'
         }
 
+
 class SilverSurfer(TemplateView):
     template_name = 'hero.html'
 
@@ -45,4 +46,15 @@ class SilverSurfer(TemplateView):
             'title': 'Silver Surfer',
             'body': 'My name is Norrin Radd',
             'image': '/static/images/silver_surf.jpg'
+        }
+
+
+class MoonKnight(TemplateView):
+    template_name = 'hero.html'
+
+    def get_context_data(self, **kwargs):
+        return {
+            'title': 'Moon Knight',
+            'body': 'My name is Marc Spector',
+            'image': '/static/images/moon_knight.jpg'
         }

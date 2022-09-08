@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import BlackWidow, HulkView, IndexView, IronManView, SilverSurfer
+from .views import BlackWidow, HulkView, IndexView, IronManView, MoonKnight, SilverSurfer
 
 urlpatterns = [
     path('', IndexView.as_view()),
@@ -7,4 +7,5 @@ urlpatterns = [
     path('ironman', IronManView.as_view()),
     path('blackwidow', BlackWidow.as_view()),
     path('silversurfer', SilverSurfer.as_view()),
+    path('moonknight', MoonKnight.as_view()),
 ]
