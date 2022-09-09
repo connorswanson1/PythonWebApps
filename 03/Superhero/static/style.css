@@ -1,0 +1,26 @@
+body {}
+
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 2em;
+}
+
+h1 {
+    color: rgb(255, 94, 0);
+}
+
+h2 {
+    color: rgb(255, 10, 226);
+    margin-top: 1em;
+}
+
+img {
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+    margin: 3em;
+    max-width: 80%;
+}
