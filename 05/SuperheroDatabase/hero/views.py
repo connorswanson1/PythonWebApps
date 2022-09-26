@@ -18,5 +18,5 @@ class HeroDetailView(TemplateView):
 
     def get_context_data(self, **kwargs):
         return {
-            'note': Hero.objects.get(pk=kwargs['pk'])
+            'hero': Hero.objects.get(pk=kwargs['pk'])
         }
