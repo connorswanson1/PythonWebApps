@@ -15,13 +15,15 @@ List of Heroes
         <table class="table table-hover">
             <tr>
                 <th>Name</th>
-                <th>ID</th>
+                <th>Identity</th>
+                <th>Author</th>
             </tr>
 
             {% for hero in object_list %}
             <tr>
                 <td><a href="/{{ hero.pk }}">{{ hero.name }}</a></td>
                 <td>{{ hero.identity }}</td>
+                <td>{{ hero.author }}</td>
             </tr>
             {% endfor %}
 
