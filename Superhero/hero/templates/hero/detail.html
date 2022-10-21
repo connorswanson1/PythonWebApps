@@ -24,8 +24,12 @@ Hero Details
                         <table class="table">
                             <tr>
                                 <td>Name</td>
+                                <!-- Logic borrowed from Shane Loewe -->
+                                {% if request.user.username == object.author.username%}
                                 <td><a href="/{{ object.pk }}/">{{ object.name }}</a></td>
-
+                                {% else %}
+                                <td>{{ object.name }}</td>
+                                {% endif %}
                             </tr>
                             <tr>
                                 <td>Identity</td>
