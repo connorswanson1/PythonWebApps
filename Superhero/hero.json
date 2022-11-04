@@ -1,0 +1,28 @@
+[
+    {
+        "model": "hero.superhero",
+        "pk": 1,
+        "fields": {
+            "name": "Moon Knight",
+            "identity": "Marc Spector",
+            "description": "Marc Spector, better known as the vigilante Moon Knight, was once a mercenary left for dead in the desert, where he was revived by the Moon god Khonshu. Appointed as Khonshu's fist and high priest, Moon Knight enacts justice to protect those who travel at night. Marc also has dissociative identity disorder, some of his alters being millionaire Steven Grant and cab driver Jake Lockley.[14][23]\r\n\r\nIn the beginning of his career, Marc fought crime on the streets with the help of a network of informants, including his best friend \"Frenchie\" Duchamp, the homeless Bertrand Crawley, and diner owner Gena Landers.[24][14] Since the early days, Marc has mostly worked alone, but he's also been a member of a few superhero teams, including the West Coast Avengers,[25] the Secret Avengers,[26] and the Heroes for Hire.[27]\r\n\r\nRecently, Marc discovered he had a daughter named Diatrice with his long-time lover Marlene Alraune,[28] but when Khonshu sensed Mephisto's plans for world domination, Marc left her to fight by his god's side and prevent that from coming true. When Khonshu succumbed to madness, however, Marc had to turn against him and help the Avengers defeat him.[29] Following Khonshu's imprisonment, Spector established the Midnight Mission to offer his help to any night dweller who might need his assistance.[30]",
+            "image": "moonknight_comic.jpg",
+            "strengths": "Over the course of his life as a boxer, U.S. Marine, mercenary, and costumed superhero, Marc Spector has become an expert at hand-to-hand combat techniques and various martial arts. He is an Olympic-l",
+            "weaknesses": "Brain damage/mental illness: It has been stated that Marc suffers from \"a madness so powerful it can only be described as magic\".[52] While it was initially believed Marc suffered from dissociative id",
+            "author": 1
+        }
+    },
+    {
+        "model": "hero.superhero",
+        "pk": 2,
+        "fields": {
+            "name": "Silver Surfer",
+            "identity": "Norrin Radd",
+            "description": "Cosmic servant of Galactus",
+            "image": "silversurfer_comic.jpg",
+            "strengths": "Flight",
+            "weaknesses": "Sad",
+            "author": 3
+        }
+    }
+]
