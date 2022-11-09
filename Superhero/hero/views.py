@@ -47,3 +47,9 @@ class SignUpView(CreateView):
     form_class = UserCreationForm
     success_url = reverse_lazy("login")
     template_name = "registration/signup.html"
+
+class UserUpdateView(LoginRequiredMixin, UpdateView):
+    template_name = "registration/edit.html"
+    model = User
+    fields = ['username', 'email']
+    success_url = reverse_lazy('edit')
