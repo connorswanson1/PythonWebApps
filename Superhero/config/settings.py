@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     # My apps
     'hero',
+    'photos',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'hero.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
