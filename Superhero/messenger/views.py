@@ -21,22 +21,11 @@ class MessageDetailView(DetailView):
     model = Message
     context_object_name = 'message'
 
-    # def get_context_data(self, **kwargs):
-    #     kwargs = super().get_context_data(**kwargs)
-    #     message = kwargs.get('message')
-    #     kwargs['dependents'] = message.dependents
-    #     return kwargs
-
 
 class MessageCreateView(LoginRequiredMixin, CreateView):
     template_name = "message/add.html"
     model = Message
     fields = '__all__'
-
-    # def form_valid(self, form):
-    #     form.instance.book = 1
-    #     form.instance.author = Person.get_me(self.request.user)
-    #     return super().form_valid(form)
 
 
 class MessageUpdateView(LoginRequiredMixin, UpdateView):

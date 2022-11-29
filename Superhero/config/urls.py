@@ -3,7 +3,7 @@ from django.urls import path, include
 from hero.views import *
 from django.conf import settings
 from django.conf.urls.static import static
-
+from messenger.views import *
 urlpatterns = [
 
     # Blog
