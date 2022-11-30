@@ -2,7 +2,7 @@
 
 ## By Connor Swanson
 
-Client meetings were held after weeks 2, 4, 6, 8, 10, 12, and 14, denoted as milestones 1-7.
+This Markdown illustrates our Project Plan followed in BACS 350, Python Web App Development. Client meetings were held after weeks 2, 4, 6, 8, 10, 12, and 14, denoted as milestones 1-7.
 
 ## Milestone 1 :
 ### DONE
@@ -14,13 +14,55 @@ Client meetings were held after weeks 2, 4, 6, 8, 10, 12, and 14, denoted as mil
     * In the meantime we will get caught back up to speed with the basics of pushing/pulling from GitHub
 
 ## Milestone 2
+### DONE
+* Past Work:
+    *
+    *
+* Future Work:
+    *
+    *
 
 ## Milestone 3
+### DONE
+* Past Work:
+    *
+    *
+* Future Work:
+    *
+    *
 
 ## Milestone 4
+### DONE
+* Past Work:
+    *
+    *
+* Future Work:
+    *
+    *
 
 ## Milestone 5
+### DONE
+* Past Work:
+    *
+    *
+* Future Work:
+    *
+    *
 
 ## Milestone 6
+### DONE
+* Past Work:
+    *
+    *
+* Future Work:
+    *
+    *
 
 ## Milestone 7
+### TO DO
+* Past Work:
+    *
+    *
+* Future Work:
+    *
+    *
